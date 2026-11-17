@@ -8,3 +8,7 @@ def aprobado(nota):
 
 def mejor(notas):
     return max(notas)
+
+
+def peor(notas):
+    return min(notas)
