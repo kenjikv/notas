@@ -12,3 +12,7 @@ def mejor(notas):
 
 def peor(notas):
     return min(notas)
+
+
+def rango(notas):
+    return max(notas) - min(notas)
