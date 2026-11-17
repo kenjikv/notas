@@ -16,3 +16,7 @@ def peor(notas):
 
 def rango(notas):
     return max(notas) - min(notas)
+
+
+def aprobados(notas):
+    return [nota for nota in notas if aprobado(nota)]
