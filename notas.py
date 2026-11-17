@@ -24,3 +24,7 @@ def aprobados(notas):
 
 def cantidad(notas):
     return len(notas)
+
+
+def desaprobados(notas):
+    return [nota for nota in notas if not aprobado(nota)]
