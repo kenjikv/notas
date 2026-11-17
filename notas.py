@@ -3,7 +3,7 @@ def promedio(notas):
 
 
 def aprobado(nota):
-    return nota >= 51
+    return nota >= 60
 
 
 def mejor(notas):
