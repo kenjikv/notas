@@ -1,6 +1,6 @@
 from notas import promedio, aprobado, rango
 
-notas = [80, 65, 90]
+notas = [80, 65, 90, 45, 72]
 print("Reporte de notas")
 print("----------------")
 print("Promedio:", promedio(notas))
