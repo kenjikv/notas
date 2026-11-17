@@ -20,3 +20,7 @@ def rango(notas):
 
 def aprobados(notas):
     return [nota for nota in notas if aprobado(nota)]
+
+
+def cantidad(notas):
+    return len(notas)
